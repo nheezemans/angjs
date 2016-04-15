@@ -5,7 +5,7 @@
   * @name core.appload.run
   * @requires app
   * @requires core
-  * @requires appload
+  * @requires core.appload
   * @description
   * <h1>Core Appload Run</h1>
   * <p>Define the functionalities that need to be run on startup</p>

@@ -6,7 +6,7 @@
   * @requires app
   * @requires core
   * @requires core.appload
-  * @requires appload.constants
+  * @requires core.constants
   * @description
   * <h1>Core Appload Route</h1>
   * <p>This module configures the route, views, controllers and templates used by this module.</p>

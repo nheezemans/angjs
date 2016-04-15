@@ -145,7 +145,7 @@ NG_DOCS={
       "type": "object",
       "moduleName": "core",
       "shortDescription": "Core Route",
-      "keywords": "_blank allows api app config constants core cross default defined href https module object route target ui-router user valid"
+      "keywords": "allows api app config constants core cross default defined https module object route user valid"
     },
     {
       "section": "api",

@@ -6,7 +6,6 @@
   * @description
   * <h1>Core Route</h1>
   * <p>The Core Route module is a Cross App Config Module which allows you the specify the default route if a valid route is not defined by the user in the App</p>
-  * <p>Depends on <a href="https://github.com/angular-ui/ui-router" target="_blank">Angular-UI UI-Router</p>
   * @requires app
   * @requires core
   * @requires core.constants

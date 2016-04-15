@@ -5,7 +5,7 @@
   * @name core.layout.controller
   * @requires app
   * @requires core
-  * @requires layout
+  * @requires core.layout
   * @description
   * <h1>Core Layout Controller</h1>
   * <p>The Core Layout Controller allows you to control the functionalities for the page where the Parent Nav view exists.</p>

@@ -8,7 +8,7 @@
   * <p>Configure the Core Layout module here</p>
   * @requires app
   * @requires core
-  * @requires layout
+  * @requires core.layout
   */
   angular
     .module('app.core.layout')

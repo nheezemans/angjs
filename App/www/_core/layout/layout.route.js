@@ -10,7 +10,7 @@
   * <p>Other module templates will be loaded into the nav-view in the layout.html file, f.e. the Dasboard template.</p>
   * @requires app
   * @requires core
-  * @requires layout
+  * @requires core.layout
   */
 
   angular
