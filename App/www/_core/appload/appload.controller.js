@@ -2,7 +2,7 @@
   'use strict';
   /**
   * @ngdoc controller
-  * @name core.appload.controller
+  * @name core.appload.controller:ApploadCtrl
   * @requires app
   * @requires core
   * @requires core.appload

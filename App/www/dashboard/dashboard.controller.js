@@ -2,7 +2,7 @@
   'use strict';
   /**
   * @ngdoc controller
-  * @name dashboard.controller
+  * @name dashboard.controller:DashboardCtrl
   * @requires app
   * @requires core
   * @description

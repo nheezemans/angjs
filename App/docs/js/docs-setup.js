@@ -50,8 +50,8 @@ NG_DOCS={
     },
     {
       "section": "api",
-      "id": "core.appload.controller",
-      "shortName": "core.appload.controller",
+      "id": "core.appload.controller:ApploadCtrl",
+      "shortName": "ApploadCtrl",
       "type": "controller",
       "moduleName": "core.appload",
       "shortDescription": "Core Appload Controller",
@@ -176,8 +176,8 @@ NG_DOCS={
     },
     {
       "section": "api",
-      "id": "dashboard.controller",
-      "shortName": "dashboard.controller",
+      "id": "dashboard.controller:DashboardCtrl",
+      "shortName": "DashboardCtrl",
       "type": "controller",
       "moduleName": "dashboard",
       "shortDescription": "Dashboard Controller",
