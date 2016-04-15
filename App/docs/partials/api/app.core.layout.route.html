@@ -1,0 +1,41 @@
+<h1><code ng:non-bindable="">route</code>
+<div><span class="hint">service in module <code ng:non-bindable="">app.core.layout</code>
+</span>
+</div>
+</h1>
+<div><h2 id="description">Description</h2>
+<div class="description"><div class="app-core-layout-route-page"><p><h3 id="description_applayoutroute">app.layout.route</h3></p>
+<p>The app.layout.route module is a Cross App Config Object which allows you the specify the default layout with a nav-view.</p>
+<p>Other module templates will be loaded into the nav-view in the layout.html file.</p></div></div>
+<h2 id="dependencies">Dependencies</h2>
+<ul class="dependencies"><li><code ng:non-bindable=""><a href="api/app">app</a></code>
+</li>
+<li><code ng:non-bindable=""><a href="api/app.layout">layout</a></code>
+</li>
+<li><code ng:non-bindable=""><a href="api/ng.$stateProvider">$stateProvider</a></code>
+</li>
+</ul>
+<h2 id="example">Example</h2>
+<div class="example"><div class="app-core-layout-route-page"><pre class="prettyprint linenums">
+(function() {
+  'use strict';
+
+  angular
+    .module('app.layout')
+    .config(route);
+  route.$inject = ['$stateProvider'];
+
+  function route($stateProvider) {
+    $stateProvider
+      .state('app', {
+        url: '/app',
+        abstract: true,
+        templateUrl: '_core/layout/layout.html',
+        controller: 'LayoutCtrl',
+        controllerAs: 'layout'
+      });
+  }
+})();
+</pre>
+</div></div>
+</div>

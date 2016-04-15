@@ -1,0 +1,31 @@
+<h1><code ng:non-bindable=""></code>
+<div><span class="hint"></span>
+</div>
+</h1>
+<div><h2 id="dependencies">Dependencies</h2>
+<ul class="dependencies"><li><code ng:non-bindable=""><a href="api/app">app</a></code>
+</li>
+</ul>
+<div class="app-core-page"><p><h2 id="appcore">app.core</h2></p>
+<p>This module allows to include other Angular Modules, Cross App Modules &amp; 3rd Party Modules to be included in the App</p></div><h2 id="example">Example</h2>
+<div class="example"><div class="app-core-page"><pre class="prettyprint linenums">
+(function() {
+  'use strict';
+
+  angular
+  .module('app.core', [
+    // Angular Modules
+
+    // Cross App Modules
+    // Example to load a module called common.device:
+    'app.core.models',
+    'app.core.services',
+
+    //3rd-party Modules
+
+  ]);
+
+})(); // End Strict
+</pre>
+</div></div>
+</div>

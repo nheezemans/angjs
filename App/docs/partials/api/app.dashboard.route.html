@@ -1,0 +1,41 @@
+<h1><code ng:non-bindable="">route</code>
+<div><span class="hint">service in module <code ng:non-bindable="">app.dashboard</code>
+</span>
+</div>
+</h1>
+<div><h2 id="description">Description</h2>
+<div class="description"><div class="app-dashboard-route-page"><p><h3 id="description_appdashboardroute">app.dashboard.route</h3></p>
+<p>The app.dashboard.route module is the route, views, controllers and templates used by this module.</p></div></div>
+<h2 id="dependencies">Dependencies</h2>
+<ul class="dependencies"><li><code ng:non-bindable=""><a href="api/app">app</a></code>
+</li>
+<li><code ng:non-bindable=""><a href="api/ng.$stateProvider">$stateProvider</a></code>
+</li>
+</ul>
+<h2 id="example">Example</h2>
+<div class="example"><div class="app-dashboard-route-page"><pre class="prettyprint linenums">
+(function() {
+  'use strict';
+
+  angular
+    .module('app.dashboard')
+    .config(route);
+  route.$inject = ['$stateProvider'];
+
+  function route($stateProvider) {
+    $stateProvider
+    .state('app.dashboard', {
+      url: '/dashboard',
+      views: {
+        'appContent': {
+          templateUrl: 'dashboard/dashboard.html',
+          controller: 'DashboardCtrl',
+          controllerAs: 'dashboard'
+        }
+      }
+    });
+  }
+})();
+</pre>
+</div></div>
+</div>
